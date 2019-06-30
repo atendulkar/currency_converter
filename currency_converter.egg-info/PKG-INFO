@@ -1,0 +1,81 @@
+Metadata-Version: 1.1
+Name: currency-converter
+Version: 1.0.0
+Summary: Currency converter for finding exchange rates.
+Home-page: https://github.com/atendulkar/currency_converter.git
+Author: Ashwin Tendulkar
+Author-email: ashwin.tendulkar@gmail.com
+License: MIT License
+
+Copyright (c) 2019 The Python Packaging Authority
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Description: # Currency Converter
+        ___
+        
+        Currency Converter is a package developed in Python for dealing with currency exchange. This package will provide some basic API for currency exchange related operation.
+        
+        ## Getting Started
+        ___
+        ### Prerequisites
+        Python
+        
+        ### Installation
+        
+        For installation use below command.
+        * Step1:
+            * Download/Copy wheel file(currency_converter-1.0.0-py3-none-any.whl) from 'dist'
+            * Run 'python3 -m pip install currency_converter-1.0.0-py3-none-any.whl' or 'pip install currency_converter-1.0.0-py3-none-any.whl'
+        * step2:
+            *  python setup.py install
+            *  pip install -r requirements.txt
+        
+        ### Python API
+        
+        Import the package and use API as below:
+        * import currency_converter as cc
+        * cc.display_all_currency_code()
+        * print(cc.get_currency_codes())
+        * print(cc.get_rate_per_unit('USD', 'INR'))
+        * print(cc.get_fullname('EUR'))
+        * print(cc.currency_converter('USD', 'EUR', 41))
+        
+        ## Contributing
+        ___
+        Please refer CONTRIBUTING.md for more details.
+        
+        ## Versioning
+        ___
+        We use GitHub for versioning.
+        
+        ## Authors
+        ___
+        * Ashwin Tendulkar -- initial work
+        ## License
+        ___
+        This project is licensed under the MIT License - see the LICENSE.md file for details
+        
+        ## References
+        ___
+        Currency value fetching from URL https://api.exchangeratesapi.io
+        Valid currency reference taken from link https://fxtop.com/en/countries-currencies.php for development.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent

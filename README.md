@@ -45,5 +45,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## References
 ___
-Currency value fetching from URL https://api.exchangeratesapi.io
-Valid currency reference taken from link https://fxtop.com/en/countries-currencies.php for development.
+* Currency value fetching from URL https://api.exchangeratesapi.io
+* Valid currency reference taken from link https://fxtop.com/en/countries-currencies.php for development.
